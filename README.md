@@ -1,2 +1,2 @@
-# Curr-culo-Pessoal
+# Currículo-Pessoal
 Meu currículo pessoal em HTML
