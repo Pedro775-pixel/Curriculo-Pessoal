@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <style>
+        /* Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        /* Cabeçalho */
+        header {
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        header h1 {
+            color: #2c3e50;
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        header .subtitle {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Seções */
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: #2c3e50;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        /* Itens de Experiência e Educação */
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+
+        .item-title {
+            color: #34495e;
+        }
+
+        .item-date {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .item-company {
+            font-style: italic;
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+
+        /* Listas */
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 5px;
+            font-size: 15px;
+        }
+
+        /* Habilidades (Tags) */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .skills-list li {
+            background-color: #eef2f5;
+            color: #2c3e50;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        /* Impressão / Salvar em PDF */
+        @media print {
+            body {
+                background-color: #fff;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- CABEÇALHO / CONTATO -->
+        <header>
+            <h1>Pedro Lucas de Santana do Nascimento</h1>
+            <div class="subtitle">Cursando Análise e Desenvolvimento de Sistemas</div>
+            <div class="contact-info">
+                <span>📍 São Lourenço da Mata, PE</span>
+                <span>📞 (81) 98337-3623</span>
+                <span>✉️ <a href="mailto:seuemail@email.com">nascimentopedrolucas30@gmail.com</a></span>
+                <span>🔗 <a href="https://linkedin.com/in/seuperfil" target="_blank">LinkedIn</a></span>
+                <span>💻 <a href="" target="_blank">GitHub</a></span>
+            </div>
+        </header>
+
+        <!-- PERFIL / RESUMO -->
+        <section>
+            <h2>Sobre Mim</h2>
+            <p>
+               Estudante de Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e inovação. Busco oportunidades para aplicar meus conhecimentos em desenvolvimento de software, contribuindo para projetos desafiadores e aprimorando minhas habilidades técnicas. 
+            </p>
+        </section>
+
+        <!-- EXPERIÊNCIA PROFISSIONAL -->
+        <section>
+            <h2>Experiência Profissional</h2>
+            
+          
+        <!-- EDUCAÇÃO -->
+        <section>
+            <h2>Educação</h2>
+            
+            <div class="item">
+                <div class="item-header">
+                    <span class="item-title">Análise e Desenvolvimento de Sistemas</span>
+                    <span class="item-date">2026 - 2027</span>
+                </div>
+                <div class="item-company">Uninassau
+			
+				</div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section>
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>HTML(iniciante) </li>
+                <li>CSS(iniciante) </li>
+                <li>JavaScript(iniciante) </li>
+                <li>Python(iniciante) </li>
+                <li>SQL(iniciante) </li>
+                <li>Git(iniciante) </li>
+            </ul>
+        </section>
+
+        <!-- IDIOMAS -->
+        <section>
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Intermediário</li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
